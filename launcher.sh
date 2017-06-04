@@ -32,7 +32,7 @@ fi
 #function for checking cli args
 function check_args() {
 if [[ "$ARGS" != 2 ]];then
-    echo "Usage $0 "
+    echo "Usage :  `basename $0` <create> or <delete> <vm_name>"
 fi
 }
 #function for checking vm existence
