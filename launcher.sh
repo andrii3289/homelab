@@ -95,7 +95,7 @@ sleep 7
 echo -ne "Waiting for VM ip 80%\r"
 sleep 10
 echo 
-ip_finder
+ip_finder.py
 }
 #function for deleting vm
 function delete_vm() {
