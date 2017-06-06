@@ -117,9 +117,6 @@ virsh list
 check_distr
 check_requirements
 case "$1" in 
-    args)
-        check_args
-        ;;
     create|create2)
         create_vm
         ;;
